@@ -1,0 +1,111 @@
+
+{
+  "shipment_info": {
+    "shipment_id": "",
+    "created_at": "",
+    "created_by": "",
+    "updated_at": "",
+    "updated_by": "",
+    "updated_reason": "",
+    "related_shipment_ids": []
+  },
+  "involved_party": {
+    "shipper_name": "",
+    "shipper_address": "",
+    ,
+    "consignee_name": "",
+    "consignee_address": "",
+    
+    "orgin_agent_name": "",
+    "orgin_agent_address": "",
+    
+    "destination_agent_name": "",
+    "destination_agent_address": "",
+    
+  },
+  "shipment": {
+    "master_bill_of_lading_number": "",
+    "house_bill_of_lading_number": "",
+    "carrier_scac_code": "",
+    "carrier_booking_number": "",
+    "vessel_name": "",
+    "voyage_number": "",
+    "port_of_loading": "",
+    "port_of_discharge": "",
+    "place_of_receipt": "",
+    "place_of_delivery": "",
+    "estimated_time_of_departure": "",
+    "estimated_time_of_arrival": "",
+    "actual_time_of_departure": "",
+    "actual_time_of_arrival": "",
+    "date_of_release": "",
+    "place_of_release": "",
+    "shipped_on_board_date": "",
+    "freight_mode": "",
+    "freight_term": "",
+    "freight_service": "",
+    "total_number_of_containers": 0,
+    "total_weight": 0,
+    "total_volume": 0,
+    "total_package": 0
+  },
+  "containers": [
+    {
+      "container_number": "",
+      "seal_number": "",
+      "container_type": "",
+      "number_of_packages": 0,
+      "package_uom": "",
+      "weight": 0,
+      "weight_uom": "",
+      "volume": 0,
+      "volume_uom": "",
+      "product_item_description": "",
+      "product_item_hscode": ""
+    }
+  ],
+  "freight_charges": [
+    {
+      "charge_name": "",
+      "rate": 0,
+      "quantity": 0,
+      "amount": 0,
+      "prepaid_or_collect": ""
+    }
+  ],
+  "customs": [
+    {
+      "product_id": "",
+      "product_description": "",
+      "product_origin": "",
+      "hs_code": "",
+      "Quantity": "",
+      "Rate": 0,
+      "total_amount": 0,
+      "Currency": 0
+    }
+  ],
+  "shipping_documents": [
+    {
+      "document_id": "",
+      "document_type": "",
+      "document_url": "",
+      "processing_result_status_code": "",
+      "processing_result_status_timestamp": ""
+    }
+  ],
+  "validation_result": [
+    {
+      "field_name": "",
+      "validation_status": "",
+      "validation_type": "",
+      "validated_value": "",
+      "validation_data_source": [
+        {
+          "data_source": "",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
